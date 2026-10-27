@@ -1,0 +1,8 @@
+const add = (a, b) => a + b;
+console.log(add(1, 2)); // 3
+// si tiene una línea la función no es necesario el uso de corchetes
+const subtract = (a, b) => {
+  return a - b;
+};
+
+console.log(subtract(2, 1)); // 1
